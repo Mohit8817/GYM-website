@@ -28,7 +28,7 @@ const Header = () => {
 
                     {/* amination divs  */}
                  
-                        <div className='box'></div>
+                        {/* <div className='box'></div> */}
                         <div className='box2'></div>
                         <div className='moon'></div>
                  

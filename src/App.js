@@ -1,6 +1,4 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import './App.css';
-
 import Navbar from './Components/Navbar/Navbar';
 // import Header from './Components/Header/Header';
 
@@ -12,9 +10,10 @@ import Notfound from './Pages/Notfound/Notfound';
 import Plans from './Pages/Plans/Plans';
 import Trainer from './Pages/Trainer/Trainer';
 import React, { useEffect } from 'react';
+
+
 import Aos from 'aos';
-
-
+import './App.css';
 
 
 function App() {
